@@ -1,9 +1,13 @@
 # xMalHunter
 
-Plugin demonstrating how to link with Qt.
+![](images/inline_hook.png)
 
-## AppVeyor
+## Features
 
-[![Build status](https://ci.appveyor.com/api/projects/status/gkc9p5993v142kdi/branch/master?svg=true)](https://ci.appveyor.com/project/x64dbg/qtplugin/branch/master)
+* Set breakpoint
+* Follow in Disassembler/Dump
+* Fix IAT and Dump PE
 
-There is an example [AppVeyor](https://ci.appveyor.com) configuration included in this template. When you rename `xMalHunter` to your own project name, you have to update `build.bat` and `appveyor.yml` to match it.
+* Find Reflective Injections, Hollows, Shellcodes, Inline/IAT Hooks using pe-sieve
+
+Powered by [pe-sieve](https://github.com/hasherezade/pe-sieve)
